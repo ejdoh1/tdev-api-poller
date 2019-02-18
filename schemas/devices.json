@@ -1,0 +1,215 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/root.json",
+    "type": "array",
+    "title": "Telstra Locations Of Things Devices Schema",
+    "items": {
+      "$id": "#/items",
+      "type": "object",
+      "title": "The Items Schema",
+      "required": [
+        "deviceId",
+        "deviceFriendlyName",
+        "mobileId",
+        "serialNumber",
+        "deviceTypeId",
+        "lastBatteryLevel",
+        "isLost",
+        "isTracked",
+        "lastLongitude",
+        "lastLatitude",
+        "lastAccuracy",
+        "lastRSSISignalLevel",
+        "lastSignalDateTime",
+        "lastTemperature",
+        "id",
+        "version",
+        "createdAt",
+        "updatedAt",
+        "deleted"
+      ],
+      "properties": {
+        "deviceId": {
+          "$id": "#/items/properties/deviceId",
+          "type": "string",
+          "title": "The Deviceid Schema",
+          "default": "",
+          "examples": [
+            "c1af3924-9e52-4ce4-b504-0c708cbf05e9"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "deviceFriendlyName": {
+          "$id": "#/items/properties/deviceFriendlyName",
+          "type": "string",
+          "title": "The Devicefriendlyname Schema",
+          "default": "",
+          "examples": [
+            "ABC-123"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "mobileId": {
+          "$id": "#/items/properties/mobileId",
+          "type": "string",
+          "title": "The Mobileid Schema",
+          "default": "",
+          "examples": [
+            "012345678912739"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "serialNumber": {
+          "$id": "#/items/properties/serialNumber",
+          "type": "string",
+          "title": "The Serialnumber Schema",
+          "default": "",
+          "examples": [
+            "012345678012739"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "deviceTypeId": {
+          "$id": "#/items/properties/deviceTypeId",
+          "type": "integer",
+          "title": "The Devicetypeid Schema",
+          "default": 0,
+          "examples": [
+            4
+          ]
+        },
+        "lastBatteryLevel": {
+          "$id": "#/items/properties/lastBatteryLevel",
+          "type": "integer",
+          "title": "The Lastbatterylevel Schema",
+          "default": 0,
+          "examples": [
+            18
+          ]
+        },
+        "isLost": {
+          "$id": "#/items/properties/isLost",
+          "type": "boolean",
+          "title": "The Islost Schema",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "isTracked": {
+          "$id": "#/items/properties/isTracked",
+          "type": "boolean",
+          "title": "The Istracked Schema",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "lastLongitude": {
+          "$id": "#/items/properties/lastLongitude",
+          "type": "number",
+          "title": "The Lastlongitude Schema",
+          "default": 0.0,
+          "examples": [
+            143.9697644
+          ]
+        },
+        "lastLatitude": {
+          "$id": "#/items/properties/lastLatitude",
+          "type": "number",
+          "title": "The Lastlatitude Schema",
+          "default": 0.0,
+          "examples": [
+            -36.8092099
+          ]
+        },
+        "lastAccuracy": {
+          "$id": "#/items/properties/lastAccuracy",
+          "type": "number",
+          "title": "The Lastaccuracy Schema",
+          "default": 0.0,
+          "examples": [
+            19.569
+          ]
+        },
+        "lastRSSISignalLevel": {
+          "$id": "#/items/properties/lastRSSISignalLevel",
+          "type": "integer",
+          "title": "The Lastrssisignallevel Schema",
+          "default": 0,
+          "examples": [
+            -1000
+          ]
+        },
+        "lastSignalDateTime": {
+          "$id": "#/items/properties/lastSignalDateTime",
+          "type": "string",
+          "title": "The Lastsignaldatetime Schema",
+          "default": "",
+          "examples": [
+            "2019-01-23T07:10:12+00:00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "lastTemperature": {
+          "$id": "#/items/properties/lastTemperature",
+          "type": "number",
+          "title": "The Lasttemperature Schema",
+          "default": 0.0,
+          "examples": [
+            23.8
+          ]
+        },
+        "id": {
+          "$id": "#/items/properties/id",
+          "type": "string",
+          "title": "The Id Schema",
+          "default": "",
+          "examples": [
+            "1fe3deef-fc5f-5989-8d19-1af5e62d23a3"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "version": {
+          "$id": "#/items/properties/version",
+          "type": "string",
+          "title": "The Version Schema",
+          "default": "",
+          "examples": [
+            "AAAAAAAEK9o="
+          ],
+          "pattern": "^(.*)$"
+        },
+        "createdAt": {
+          "$id": "#/items/properties/createdAt",
+          "type": "string",
+          "title": "The Createdat Schema",
+          "default": "",
+          "examples": [
+            "2018-10-23T04:35:55.2069215+00:00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "updatedAt": {
+          "$id": "#/items/properties/updatedAt",
+          "type": "string",
+          "title": "The Updatedat Schema",
+          "default": "",
+          "examples": [
+            "2019-01-23T22:50:56.2293408+00:00"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "deleted": {
+          "$id": "#/items/properties/deleted",
+          "type": "boolean",
+          "title": "The Deleted Schema",
+          "default": false,
+          "examples": [
+            false
+          ]
+        }
+      }
+    }
+  }
